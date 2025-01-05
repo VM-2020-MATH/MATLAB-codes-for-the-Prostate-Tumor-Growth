@@ -1,14 +1,14 @@
 These codes are provided to solve numerically the Prostate tumor growth 
 mathematical model arising in biology in two-dimensional space. 
 The RBF-FD scheme is implemented 
-to discretize the spatial variables, and a semi-implicit backward differential 
+to discretize the spatial variables and a semi-implicit backward differential the 
 formula of first-order (SBDF1) is used to deal with the time variable. Besides,
 the biconjugate gradient stabilized (BiCGSTAB) method is applied to solve
-the new fully discrete sacheme per time step.
+the new fully discrete scheme per time step.
 
 Authors: Vahid Mohammadi 1, Mehdi Dehghan 1, Stefano De Marchi 2
 
-1.Department of Applied Mathematics,
+1. Department of Applied Mathematics,
   Faculty of Mathematics and Computer Sciences, 
   Amirkabir University of Technology
 
@@ -29,12 +29,12 @@ The folder also contains the following subroutines:
 
 (Hint: This subroutine was written by N. Flyer and co-authors, See
 N. Flyer, G.A. Barnett, and L.J. Wicker. 
-Enhancing finite differences with radial ba-sis functions: 
-Experiments on the Navier–Stokes equations. Journal of Computational
-Physics, 316:39–62, 2016.
+Enhancing finite differences with radial basis functions: 
+Experiments on the Navierâ€“Stokes equations. Journal of Computational
+Physics, 316:39â€“62, 2016.
 )
 
-2. points.m generate the points which are used.
+2. points.m generate the points that are used.
 
 3.Eigenvalues_Diff.m computes the eigenvalues of the differentiation matrix
 
